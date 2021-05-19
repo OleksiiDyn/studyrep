@@ -32,5 +32,5 @@ def get_age(message):
         except Exception:
              bot.send_message(message.from_user.id, 'Цифрами, пожалуйста');
         bot.send_message(message.from_user.id, 'Тебе '+str(age)+' лет, тебя зовут '+name+' '+surname+'?')
-
+print('dev branch')
 bot.polling(none_stop=True, interval=0)
